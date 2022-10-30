@@ -1,0 +1,226 @@
+body{
+    margin: 0;
+    font-family: 'Bai Jamjuree',sans-serif;
+    font-size: 18px;
+
+}
+
+.head{
+    position: absolute;
+}
+
+
+.intro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 150px;
+}
+
+.dl{
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+}
+
+.mac > a{
+    color: white;
+    text-decoration: none;
+}
+
+.ios > a{
+    color: white;
+    text-decoration: none;
+}
+
+p{
+    color: hsl(201, 11%, 66%);
+}
+
+.p1{
+    margin-bottom: 0px;
+    margin-top: 0;
+}
+
+.p1Bis{
+    margin-top: 0px;
+}
+
+.ios, .mac{
+    width: 250px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 100px;
+
+}
+
+.ios{
+    background-color: hsl(171, 66%, 44%);
+}
+
+.mac{
+    background-color: hsl(233, 100%, 69%);
+}
+
+.track{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 120px;
+}
+
+.p2{
+    margin-top: 0;
+}
+
+.p2,.p2Bis{
+    margin-bottom: 0;
+}
+
+.p2Bis, .p2BisBis{
+    margin-top: 0;
+}
+
+.ex{
+    float: right;
+    margin-right: 10%;
+}
+
+.pqs, .ps, .pch{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.pqs2, .ps2, .pch2{
+    margin-top: 0;
+    margin-bottom: 60px;
+}
+
+.exH{
+    margin-bottom: 10px;
+}
+
+.acess{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 150px;
+}
+
+.pa{
+    margin-bottom: 0;
+}
+
+.pa2, .pa{
+    margin-top: 0;
+}
+
+.img_devices{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+
+}
+
+.workflow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.pw{
+    margin-top: 0;
+}
+
+.use2{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.blacklists, .snippets, .preview{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.pb, .pts, .pp{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.pb2, .pts2, .pp2{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.pb3{
+    margin-top: 0;
+}
+
+.comp{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 100px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: lightgray;
+    margin-top: 100px;
+    height: 150px;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap:80px;
+}
+
+.links>*{
+    gap:5px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.faq{
+    display: flex;
+    flex-direction: column;
+}
+
+.logoC{
+    height: 50px;
+}
+
+.faqs:hover,.contact:hover, .policy:hover, .kit:hover, .guide:hover{
+    color: hsl(171, 66%, 44%);
+}
+
+.social_media{
+    display: flex;
+    gap:30px;
+}
+
+.fb:hover, .twitter:hover, .insta:hover{
+    filter: opacity(0.4)
+
+}
